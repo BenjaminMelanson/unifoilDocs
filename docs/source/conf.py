@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'UniFoil'
+copyright = 'UTK DyMDO Lab, 2025'
+author = 'Benjamin Melanson'
 
 release = '0.1'
 version = '0.1.0'
