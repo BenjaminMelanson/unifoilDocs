@@ -13,5 +13,5 @@ Contents
 .. toctree::
    
    installation
-   functions
+   api
    
