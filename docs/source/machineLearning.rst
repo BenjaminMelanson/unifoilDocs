@@ -1,5 +1,5 @@
 Machine Learning
-===
+================
 
 .. autosummary::
    :toctree: generated
