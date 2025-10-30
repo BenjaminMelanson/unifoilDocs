@@ -1,5 +1,7 @@
 API
 ===
+Welcome to the API Documentation!
+Below is all of the critical functions needed to utilize the UniFoil Dataset.
 
 .. autosummary::
    :toctree: generated
