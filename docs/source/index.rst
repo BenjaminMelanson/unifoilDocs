@@ -18,5 +18,3 @@ Contents
    examples
    machineLearning
    simulations
-   
-`Google Test Link <https://www.google.com>`_
