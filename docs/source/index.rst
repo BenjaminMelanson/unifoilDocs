@@ -1,7 +1,8 @@
 UniFoil Documentation
 ===================================
 
-Welcome to UniFoil. Our project provides a dataset containing...
+Welcome to UniFoil. Our project provides a dataset containing over a million distinct airfoil simulations.
+
 
 .. note::
 
@@ -14,4 +15,7 @@ Contents
    
    installation
    api
+   examples
+   machineLearning
+   simulations
    
