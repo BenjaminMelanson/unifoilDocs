@@ -12,12 +12,12 @@ It is recommended to use a high power CPU Cluster if available to speed up proce
 
 
 .. note::
-   This docuentation only covers the basic usage of ADFlow for airfoil simulations. Please visit the 'ADFlow GitHub <https://github.com/mdolab/adflow>' or the 'ADFlow Documentation <https://mdolab-adflow.readthedocs-hosted.com/en/latest/> for usage.'
+   This docuentation only covers the basic usage of ADFlow for airfoil simulations. Please visit the 'ADFlow GitHub <https://github.com/mdolab/adflow>'_ or the 'ADFlow Documentation <https://mdolab-adflow.readthedocs-hosted.com/en/latest/>'_ for usage.
 
 Building MACH-Aero
 ----------------
 MACH-Aero is the library utilized to generate airfoil simulations.
-In order to get started in using this library, visit the 'MACH-Aero GitHub Repo <https://github.com/mdolab/MACH-Aero>', or the 'MACH-Aero Documentation <https://mdolab-mach-aero.readthedocs-hosted.com/en/latest/>' and follow the installation instructions.
+In order to get started in using this library, visit the 'MACH-Aero GitHub Repo <https://github.com/mdolab/MACH-Aero>'_, or the 'MACH-Aero Documentation <https://mdolab-mach-aero.readthedocs-hosted.com/en/latest/>'_ and follow the installation instructions.
 
 As a general requirement, using MACH-Aero and ADFlow is only officially supported on Ubuntu LTS 20.04 or 22.04, however testing shows that it is funcional in the most recent Ubuntu LTS 24.04.
 Those familiar with Docker and containerization can use the official 'Docker Image <https://hub.docker.com/r/mdolab/public/tags>'.
