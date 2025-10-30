@@ -17,7 +17,7 @@ It is recommended to use a high power CPU Cluster if available to speed up proce
 Building MACH-Aero
 ----------------
 MACH-Aero is the library utilized to generate airfoil simulations.
-In order to get started in using this library, visit the 'MACH-Aero GitHub Repo <https://github.com/mdolab/MACH-Aero>'_, or the 'MACH-Aero Documentation <https://mdolab-mach-aero.readthedocs-hosted.com/en/latest/>'_ and follow the installation instructions.
+In order to get started in using this library, visit the 'MACH-Aero GitHub Repo'_, or the 'MACH-Aero Documentation <https://mdolab-mach-aero.readthedocs-hosted.com/en/latest/>'__ and follow the installation instructions.
 
 As a general requirement, using MACH-Aero and ADFlow is only officially supported on Ubuntu LTS 20.04 or 22.04, however testing shows that it is funcional in the most recent Ubuntu LTS 24.04.
 Those familiar with Docker and containerization can use the official 'Docker Image <https://hub.docker.com/r/mdolab/public/tags>'.
@@ -42,3 +42,5 @@ Mesh Generation
 ---------------
 After generating the airfoil grid, the points must be converted into a Volume .CGNS.
 This file is what is fed into ADFlow to run the simulation.
+
+.. _MACH-Aero GitHub Repo: https://github.com/mdolab/MACH-Aero
