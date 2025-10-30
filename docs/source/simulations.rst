@@ -1,5 +1,5 @@
 Simulations
-===
+============
 
 .. autosummary::
    :toctree: generated
