@@ -1,5 +1,5 @@
 Examples
-===
+========
 
 .. autosummary::
    :toctree: generated
