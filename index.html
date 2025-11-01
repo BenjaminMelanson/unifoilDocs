@@ -5,10 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="UniFoi: A Universal Dataset of Airfoils in Transitional and Turbulent Regimes for Subsonic and Transonic Flows - Rohit Sunil Kanchi, Benjamin Melanson, Nithin Somasekharan, Shaowu Pan, Sicheng He">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta name="title" content="UniFoil: A Universal Dataset of Airfoils in Transitional and Turbulent Regimes for Subsonic and Transonic Flows - Rohit Sunil Kanchi, Benjamin Melanson, Nithin Somasekharan, Shaowu Pan, Sicheng He">
+  <meta name="description" content="We present UniFoil, the largest publicly available universal airfoil dataset based on Reynolds-averaged-Navier–Stokes (RANS) simulations. It contains over 500,000 samples spanning a wide range of Reynolds numbers, Mach numbers, capturing both transitional and fully turbulent flows across incompressible to compressible regimes. UniFoil is designed to support machine learning (ML) research in fluid dynamics, particularly for modeling complex aerodynamic phenomena. Most existing datasets are limited to incompressible, fully turbulent flows with smooth field characteristics, thus overlooking the critical physics of laminar–turbulent transition and shock-wave interactions-features that exhibit strong nonlinearity and sharp gradients. UniFoil fills this gap by offering a broad spectrum of realistic flow conditions. Turbulent simulations utilize the Spalart–Allmaras (SA) model, while transitional flows are modeled using an eN -based transition prediction method coupled with the SA model. The dataset includes a comprehensive geometry set comprising over 4,800 natural laminar flow (NLF) airfoils and 30,000 fully turbulent (FT) airfoils, effectively covering the diversity of airfoil designs relevant to aerospace, wind energy, and marine applications. This dataset is also highly valuable for scientific machine learning (SciML), enabling the development of data-driven models that more accurately capture the transport processes associated with laminar–turbulent transition. UniFoil is freely available under a permissive CC-BY-SA license.">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
   <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
   <meta name="author" content="Rohit Sunil Kanchi, Benjamin Melanson, Nithin Somasekharan, Shaowu Pan, Sicheng He">
@@ -17,12 +15,11 @@
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <meta property="og:site_name" content="University of Tennessee, Knoxville">
   <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
+  <meta property="og:title" content="UniFoil: A Universal Dataset of Airfoils in Transitional and Turbulent Regimes for Subsonic and Transonic Flows">
   <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta property="og:description" content="We present UniFoil, the largest publicly available universal airfoil dataset based on Reynolds-averaged-Navier–Stokes (RANS) simulations. It contains over 500,000 samples spanning a wide range of Reynolds numbers, Mach numbers, capturing both transitional and fully turbulent flows across incompressible to compressible regimes. UniFoil is designed to support machine learning (ML) research in fluid dynamics, particularly for modeling complex aerodynamic phenomena. Most existing datasets are limited to incompressible, fully turbulent flows with smooth field characteristics, thus overlooking the critical physics of laminar–turbulent transition and shock-wave interactions-features that exhibit strong nonlinearity and sharp gradients. UniFoil fills this gap by offering a broad spectrum of realistic flow conditions. Turbulent simulations utilize the Spalart–Allmaras (SA) model, while transitional flows are modeled using an eN -based transition prediction method coupled with the SA model. The dataset includes a comprehensive geometry set comprising over 4,800 natural laminar flow (NLF) airfoils and 30,000 fully turbulent (FT) airfoils, effectively covering the diversity of airfoil designs relevant to aerospace, wind energy, and marine applications. This dataset is also highly valuable for scientific machine learning (SciML), enabling the development of data-driven models that more accurately capture the transport processes associated with laminar–turbulent transition. UniFoil is freely available under a permissive CC-BY-SA license.">
   <!-- TODO: Replace with your actual website URL -->
   <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
   <!-- TODO: Create a 1200x630px preview image and update path -->
@@ -45,7 +42,7 @@
   <!-- TODO: Same as paper title above -->
   <meta name="twitter:title" content="PAPER_TITLE">
   <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta name="twitter:description" content="We present UniFoil, the largest publicly available universal airfoil dataset based on Reynolds-averaged-Navier–Stokes (RANS) simulations. It contains over 500,000 samples spanning a wide range of Reynolds numbers, Mach numbers, capturing both transitional and fully turbulent flows across incompressible to compressible regimes. UniFoil is designed to support machine learning (ML) research in fluid dynamics, particularly for modeling complex aerodynamic phenomena. Most existing datasets are limited to incompressible, fully turbulent flows with smooth field characteristics, thus overlooking the critical physics of laminar–turbulent transition and shock-wave interactions-features that exhibit strong nonlinearity and sharp gradients. UniFoil fills this gap by offering a broad spectrum of realistic flow conditions. Turbulent simulations utilize the Spalart–Allmaras (SA) model, while transitional flows are modeled using an eN -based transition prediction method coupled with the SA model. The dataset includes a comprehensive geometry set comprising over 4,800 natural laminar flow (NLF) airfoils and 30,000 fully turbulent (FT) airfoils, effectively covering the diversity of airfoil designs relevant to aerospace, wind energy, and marine applications. This dataset is also highly valuable for scientific machine learning (SciML), enabling the development of data-driven models that more accurately capture the transport processes associated with laminar–turbulent transition. UniFoil is freely available under a permissive CC-BY-SA license.">
   <!-- TODO: Same as social preview image above -->
   <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
   <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
@@ -113,23 +110,47 @@
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "UniFoi: A Universal Dataset of Airfoils in Transitional and Turbulent Regimes for Subsonic and Transonic Flows",
+    "description": "We present UniFoil, the largest publicly available universal airfoil dataset based on Reynolds-averaged-Navier–Stokes (RANS) simulations. It contains over 500,000 samples spanning a wide range of Reynolds numbers, Mach numbers, capturing both transitional and fully turbulent flows across incompressible to compressible regimes. UniFoil is designed to support machine learning (ML) research in fluid dynamics, particularly for modeling complex aerodynamic phenomena. Most existing datasets are limited to incompressible, fully turbulent flows with smooth field characteristics, thus overlooking the critical physics of laminar–turbulent transition and shock-wave interactions-features that exhibit strong nonlinearity and sharp gradients. UniFoil fills this gap by offering a broad spectrum of realistic flow conditions. Turbulent simulations utilize the Spalart–Allmaras (SA) model, while transitional flows are modeled using an eN -based transition prediction method coupled with the SA model. The dataset includes a comprehensive geometry set comprising over 4,800 natural laminar flow (NLF) airfoils and 30,000 fully turbulent (FT) airfoils, effectively covering the diversity of airfoil designs relevant to aerospace, wind energy, and marine applications. This dataset is also highly valuable for scientific machine learning (SciML), enabling the development of data-driven models that more accurately capture the transport processes associated with laminar–turbulent transition. UniFoil is freely available under a permissive CC-BY-SA license.",
     "author": [
       {
         "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
+        "name": "Rohit Sunil Kanchi",
         "affiliation": {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+          "name": "University of Tennessee, Knoxville"
         }
       },
       {
         "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
+        "name": "Benjamin Melanson",
         "affiliation": {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+          "name": "University of Tennessee, Knoxville"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Nithin Somasekharan",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Rensselaer Polytechnic Institute"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Shaowu Pan",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Rensselaer Polytechnic Institute"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Sicheng He",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "University of Tennessee, Knoxville"
         }
       }
     ],
@@ -167,7 +188,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
+    "name": "University of Tennessee, Knoxville",
     "url": "https://YOUR_INSTITUTION_WEBSITE.com",
     "logo": "docs/source/logo.svg",
     "sameAs": [
@@ -191,12 +212,12 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">UniFoi: A Universal Dataset of Airfoils in Transitional and Turbulent Regimes for Subsonic and Transonic Flows</h1>
+            <h1 class="title is-1 publication-title">UniFoil: A Universal Dataset of Airfoils in Transitional and Turbulent Regimes for Subsonic and Transonic Flows</h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
                 <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Rohit Sunil Kanchi</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Benjamin Melanson</a>,</span>
+                  <a href="https://www.linkedin.com/in/benjamin-melanson/" target="_blank">Benjamin Melanson</a>,</span>
                   <span class="author-block">
                     <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Nithin Somasekharan</a>,</span>
                     <span class="author-block">
@@ -217,9 +238,19 @@
                         <a href="https://arxiv.org/pdf/2505.21124" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
-                            <i class="ai ai-arxiv"></i>
+                            <i class="fas fa-file-pdf"></i>
                         </span>
                         <span>Paper</span>
+                      </a>
+                    </span>
+
+                     <span class="link-block">
+                        <a href="https://arxiv.org/abs/2505.21124" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>ArXiv</span>
                       </a>
                     </span>
 
@@ -405,7 +436,6 @@
       archivePrefix={arXiv},
       primaryClass={physics.flu-dyn},
       url={https://arxiv.org/abs/2505.21124}, 
-}
 }</code></pre>
     </div>
 </section>
