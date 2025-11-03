@@ -1,3 +1,7 @@
 UniFoil Documentation
 =======================================
-This is the temporary home of the documentation for UniFoil. This will be migrated once the documentation is finalized.
+Welcome to the home of the UniFoil Documentation!
+
+You can access the documentation by going to the [Read The Docs](https://unifoildocs.readthedocs.io) page.
+
+You can also visit the [Landing Page](https://benjaminmelanson.github.io/unifoilDocs/).
