@@ -4,7 +4,7 @@ Installation
 Section 1: Installation
 -----------------------
 
-The users can install **UniFoil** by cloning the repository from the following link:  
+The users can install the **UniFoil interface** by cloning the repository from the following link:  
 `<Insert Repository Link Here>`_
 
 Once inside the cloned repository, run the following command in your terminal:
@@ -13,7 +13,7 @@ Once inside the cloned repository, run the following command in your terminal:
 
    pip install .
 
-This command will install **UniFoil** along with all of its dependencies.
+This command will install the **UniFoil interface** along with all of its dependencies.
 
 .. warning::
 
