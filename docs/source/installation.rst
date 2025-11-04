@@ -1,18 +1,25 @@
 Installation
 ============
 
-.. _installation:
+Section 1: Installation
+-----------------------
 
-Automatic Installation
-------------
+The users can install **UniFoil** by cloning the repository from the following link:  
+`<Insert Repository Link Here>`_
 
-For automated installation of the UniFoil tools, first install it using pip:
+Once inside the cloned repository, run the following command in your terminal:
 
 .. code-block:: console
 
-   (.venv) $ pip install unifoil
+   pip install .
 
-It is recommended to use (Insert Required Python Version) along with...
+This command will install **UniFoil** along with all of its dependencies.
 
-Hello
-------------
+.. warning::
+
+   This installation process will also install all dependencies such as
+   ``numpy`` and ``niceplots``. These packages may upgrade versions of existing
+   libraries you already have installed locally.  
+   If this could cause conflicts, it is strongly recommended to create a
+   `Python virtual environment <https://docs.python.org/3/tutorial/venv.html>`_
+   before installing **UniFoil**.
