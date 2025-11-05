@@ -358,3 +358,38 @@ All operations under this section are handled through the method :py:meth:`Extra
 
    **Description:**  
    Provides access to solver convergence histories for monitoring simulation stability and performance.
+
+
+.. py:method:: ed.get_supplement_transi(airfoil_number, case_number=None, Mach=None, AoA=None, Re=None, plot_flag=True)
+
+   Locates and processes **supplementary transition data** (``nfactor_ts.dat`` and ``transiLoc.dat``)  
+   for a specified airfoil and case from the **Transi_sup_data_Cutout_i** folders.
+
+   :param airfoil_number: Target airfoil number.
+   :type airfoil_number: int
+   :param case_number: Case index (1-indexed as in the transition CSV).  
+                       If ``None``, the routine automatically selects the nearest available case using Mach, AoA, and Re.
+   :type case_number: int, optional
+   :param Mach: Freestream Mach number, used when ``case_number`` is not specified.
+   :type Mach: float, optional
+   :param AoA: Freestream angle of attack (in degrees), used when ``case_number`` is not specified.
+   :type AoA: float, optional
+   :param Re: Reynolds number, used when ``case_number`` is not specified.
+   :type Re: float, optional
+   :param plot_flag: If ``True``, plots both the **N-factor** evolution and **transition-location** visualization on the airfoil.
+   :type plot_flag: bool, optional
+   :return: A list containing ``[nfactor_data, transi_data]`` objects from the corresponding data files.
+   :rtype: list
+
+   **Description:**  
+   - Searches for supplementary transition data files inside ``Transi_sup_data_Cutout_<1-4>`` directories  
+     under the **UniFoil Root**.  
+   - Automatically maps the airfoil geometry using ``matched_files.csv`` to locate the correct NLF airfoil file.  
+   - If the matching ``nfactor_ts.dat`` or ``transiLoc.dat`` files are found, they are parsed using ``sup_transi``.  
+   - When ``plot_flag=True``, the routine generates visualizations of the N-factor curves and transition locations.
+
+   **Typical Usage:**
+   - To directly load and visualize data for a given case:
+     ``ed.get_supplement_transi(airfoil_number=1, case_number=8, plot_flag=True)``
+   - To automatically locate the nearest case using flow conditions:
+     ``ed.get_supplement_transi(airfoil_number=1, Mach=0.60, AoA=5.0, Re=2.5e6)``
