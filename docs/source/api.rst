@@ -46,7 +46,7 @@ Geometry
    :rtype: tuple of np.ndarray
 
 FT Geometries — Turbulent Simulation Data
-=========================================
+-----------------------------------------
 
 This section provides access to **surface flow-field quantities** obtained from the **Fully Turbulent (FT)** simulations within the UniFoil dataset.  
 All operations under this section are handled through the method :py:meth:`ExtractData.surf_turb`.
