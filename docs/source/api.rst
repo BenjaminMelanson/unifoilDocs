@@ -63,15 +63,3 @@ Data Extraction
    :return: Tuple of arrays ``(x, y)`` representing the airfoil coordinates.
    :rtype: tuple of np.ndarray
 
-   **Example:**
-
-   .. code-block:: python
-
-      from unifoil.extract_data import ExtractData
-      ed = ExtractData()
-
-      # Extract from the turbulent dataset
-      x, y = ed.extract_airfoil_coords(airfoil_number=3, source="turb", plot_flag=True)
-
-      # Extract from the transitional-laminar dataset
-      x, y = ed.extract_airfoil_coords(airfoil_number=3, source="translam", plot_flag=True)
