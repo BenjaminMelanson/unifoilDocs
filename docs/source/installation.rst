@@ -1,11 +1,11 @@
 Installation
 ============
 
-Section 1: Installation
+Step 1: Installation
 -----------------------
 
 The users can install the **UniFoil interface** by cloning the repository from the following link:  
-`<Insert Repository Link Here>`_
+`<https://github.com/rohitroxkp7/UniFoil>`_
 
 Once inside the cloned repository, run the following command in your terminal:
 
@@ -22,12 +22,12 @@ This command will install the **UniFoil interface** along with all of its depend
    libraries you already have installed locally.  
    If this could cause conflicts, it is strongly recommended to create a
    `Python virtual environment <https://docs.python.org/3/tutorial/venv.html>`_
-   before installing **UniFoil**.
+   before installing **UniFoil** and using the interface inside this virtual environment.
 
-Section 2: Data Curation
+Step 2: Data Curation
 ------------------------
 
-Upon successful completion of **Section 1**, we need to download and perform a few simple data organization steps before using **UniFoil**.
+Upon successful completion of **Step 1**, we need to download and perform a few simple data organization steps before using **UniFoil**.
 
 1. **Create a local folder for UniFoil usage:**  
    This folder will serve as the workspace for your datasets and scripts.  
@@ -40,8 +40,10 @@ Upon successful completion of **Section 1**, we need to download and perform a f
 
 3. **Open the UniFoil repository:**  
    Visit the `UniFoil GitHub repository folder <https://github.com/rohitroxkp7/UniFoil/tree/main/unifoil_interface>`_  
-   and download the folders **input_nlf**, **input_ft**, and the file **matched_files.csv**. These are basically helper files and folders to help 
-   with the dataset interface usage.
+   and download the folders **input_nlf**, **input_ft**, and the file **matched_files.csv**.
+   Also download the `test cases <https://github.com/rohitroxkp7/UniFoil/tree/main/unifoil_interface/examples>`_ to be run in the next step. 
+   These are basically helper files and folders to help 
+   with the dataset interface usage. Once downloaded, place them as is inside the **UniFoil Root**.
 
 4. **Extract and organize the data:**  
    Place all downloaded files and folders from the  inside the **UniFoil Root**.  
@@ -87,5 +89,11 @@ Note that the convention ``folder_<a-b>`` represents the series of cutout folder
       ├── input_ft/
       ├── matched_files.csv
       └── your_script.py
+
+
+Step 3: Dataset Check
+------------------------
+Once **Step 2** is complete, please run the follo
+
 
 We are now ready to use **UniFoil**.
