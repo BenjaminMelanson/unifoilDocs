@@ -16,5 +16,3 @@ Contents
    installation
    api
    examples
-   machineLearning
-   simulations
