@@ -39,23 +39,34 @@ Upon successful completion of **Section 1**, we need to download and perform a f
    `Harvard Dataverse <https://doi.org/10.7910/DVN/VQGWC4>`_.
 
 3. **Open the UniFoil repository**  
-   Visit the `UniFoil GitHub repository <https://github.com/YourRepoLinkHere>`_  
+   Visit the `UniFoil GitHub repository folder <https://github.com/YourRepoLinkHere>`_  
    and download the folders **a**, **b**, and **c**.
 
-4. **Organize and extract the data.**  
-   Place all downloaded files and folders inside the **UniFoil Root**.  
+4. **Extract and organize the data.**  
+   Place all downloaded files and folders from the  inside the **UniFoil Root**.  
    Unzip all the `.zip` and `.tar.gz` files. Once extracted, please delete the compressed files.  
-   Refer to the table below for the unzip process:
+   Refer to the table below for the unzip process (for folders only):
 
-   +-----------------------------------------------+---------------------------------------------+
-   | **Compressed File**                           | **Extracted Folder Name**                   |
-   +===============================================+=============================================+
-   | ``airfoil_data_from_simulations.tar.gz``      | ``airfoil_data_from_simulations/``          |
-   +-----------------------------------------------+---------------------------------------------+
-   | ``unifoil_additional_data.zip``               | ``unifoil_additional_data/``                |
-   +-----------------------------------------------+---------------------------------------------+
-   | *(Add more rows here as needed)*              |                                             |
-   +-----------------------------------------------+---------------------------------------------+
++-----------------------------------------------+-----------------------------------------------+
+| **Compressed File**                           | **Extracted / Renamed Folder Name**           |
++===============================================+===============================================+
+| ``airfoil_data_from_simulations_transi.tar.gz`` | ``airfoil_data_from_simulations_transi/``    |
++-----------------------------------------------+-----------------------------------------------+
+| ``airfoil_dat_from_sim_lam.tar.gz``           | ``airfoil_data_from_simulations_lam/``        |
++-----------------------------------------------+-----------------------------------------------+
+| ``airfoil_dat_from_sim_turb1.tar.gz``         | ``airfoil_data_from_simulations_turb_set1/``  |
++-----------------------------------------------+-----------------------------------------------+
+| ``airfoil_dat_from_sim_turb2.tar.gz``         | ``airfoil_data_from_simulations_turb_set2/``  |
++-----------------------------------------------+-----------------------------------------------+
+| ``NLF_Airfoils_Fully_Turbulent.zip``          | ``NLF_Airfoils_Fully_Turbulent/``             |
++-----------------------------------------------+-----------------------------------------------+
+| ``Transi_Cutout_<1-4>.zip``                   | ``Transi_Cutout_<1-4>/``                      |
++-----------------------------------------------+-----------------------------------------------+
+| ``Transi_sup_data_Cutout_<1-2>.zip``          | ``Transi_sup_data_Cutout_<1-2>/``             |
++-----------------------------------------------+-----------------------------------------------+
+| ``Turb_Cutout_<1-6>.zip``                     | ``Turb_Cutout_<1-6>/``                        |
++-----------------------------------------------+-----------------------------------------------+
+
 
 5. **Verify your folder structure.**  
    After completing steps 1–4, your **UniFoil Root** directory should look as follows:
