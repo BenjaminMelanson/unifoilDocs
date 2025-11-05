@@ -114,3 +114,36 @@ All operations under this section are handled through the method :py:meth:`Extra
 
    - **Automatic case selection:**  
      When ``case_number=None``, the routine finds and uses the case closest to the requested ``Mach``, ``AoA``, and ``Re`` values.
+
+
+.. py:method:: ed.get_aero_coeffs_turb(airfoil_number, case_number)
+
+   Returns the aerodynamic coefficients for the specified **Fully Turbulent (FT)** airfoil case.
+
+   :param airfoil_number: Target airfoil number.
+   :type airfoil_number: int
+   :param case_number: Case index corresponding to the simulation condition.
+   :type case_number: int
+   :return: Tuple ``(Cl, Cd)`` representing lift and drag coefficients.
+   :rtype: tuple of float
+
+   **Description:**  
+   Retrieves precomputed aerodynamic coefficients from the turbulent simulation database for the specified airfoil and case.
+
+
+.. py:method:: ed.load_convergence_data_turb(airfoil_number, case_number, print_flag=False)
+
+   Loads and parses the convergence history file for a **Fully Turbulent (FT)** simulation case.
+
+   :param airfoil_number: Target airfoil number.
+   :type airfoil_number: int
+   :param case_number: Case index corresponding to the simulation condition.
+   :type case_number: int
+   :param print_flag: If ``True``, prints a summary of available convergence fields.
+   :type print_flag: bool, optional
+   :return: Dictionary containing convergence quantities (e.g., ``CFL``, ``Residual``, ``CL``, ``CD``) keyed by field names.
+   :rtype: dict
+
+   **Description:**  
+   Provides access to solver convergence histories for monitoring simulation stability and performance.
+
