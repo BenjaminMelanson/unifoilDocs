@@ -382,8 +382,7 @@ All operations under this section are handled through the method :py:meth:`Extra
    :rtype: list
 
    **Description:**  
-   - Searches for supplementary transition data files inside ``Transi_sup_data_Cutout_<1-4>`` directories  
-     under the **UniFoil Root**.  
+   - Searches for supplementary transition data files inside ``Transi_sup_data_Cutout_<1-4>`` directories under the **UniFoil Root**.  
    - Automatically maps the airfoil geometry using ``matched_files.csv`` to locate the correct NLF airfoil file.  
    - If the matching ``nfactor_ts.dat`` or ``transiLoc.dat`` files are found, they are parsed using ``sup_transi``.  
    - When ``plot_flag=True``, the routine generates visualizations of the N-factor curves and transition locations.
