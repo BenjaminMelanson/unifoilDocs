@@ -4,8 +4,7 @@ Installation
 Step 1: Installation
 -----------------------
 
-The users can install the **UniFoil interface** by cloning the repository from the following link:  
-`<https://github.com/rohitroxkp7/UniFoil>`_
+The users can install the **UniFoil interface** by cloning our `repository <https://github.com/rohitroxkp7/UniFoil>`_.
 
 Once inside the cloned repository, run the following command in your terminal:
 
