@@ -50,7 +50,7 @@ Upon successful completion of **Section 1**, we need to download and perform a f
 +-----------------------------------------------+-----------------------------------------------+
 | **Compressed File**                           | **Extracted / Renamed Folder Name**           |
 +===============================================+===============================================+
-| ``airfoil_data_from_simulations_transi.tar.gz`` | ``airfoil_data_from_simulations_transi/``    |
+| ``airfoil_data_from_simulations_transi.tar.gz`` | ``airfoil_data_from_simulations_transi/``   |
 +-----------------------------------------------+-----------------------------------------------+
 | ``airfoil_dat_from_sim_lam.tar.gz``           | ``airfoil_data_from_simulations_lam/``        |
 +-----------------------------------------------+-----------------------------------------------+
