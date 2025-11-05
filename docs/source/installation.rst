@@ -29,21 +29,21 @@ Section 2: Data Curation
 
 Upon successful completion of **Section 1**, we need to download and perform a few simple data organization steps before using **UniFoil**.
 
-1. **Create a local folder for UniFoil usage.**  
+1. **Create a local folder for UniFoil usage:**  
    This folder will serve as the workspace for your datasets and scripts.  
    All UniFoil operations must be executed from within a Python script located inside this folder.  
    We will refer to this folder as the **UniFoil Root** throughout this documentation.
 
-2. **Download the dataset from the Harvard Dataverse.**  
+2. **Download the dataset from the Harvard Dataverse:**  
    The complete dataset can be downloaded from the  
    `Harvard Dataverse <https://doi.org/10.7910/DVN/VQGWC4>`_.
 
-3. **Open the UniFoil repository**  
+3. **Open the UniFoil repository:**  
    Visit the `UniFoil GitHub repository folder <https://github.com/rohitroxkp7/UniFoil/tree/main/unifoil_interface>`_  
    and download the folders **input_nlf**, **input_ft**, and the file **matched_files.csv**. These are basically helper files and folders to help 
    with the dataset interface usage.
 
-4. **Extract and organize the data.**  
+4. **Extract and organize the data:**  
    Place all downloaded files and folders from the  inside the **UniFoil Root**.  
    Unzip all the `.zip` and `.tar.gz` files. Once extracted, please delete the compressed files.  
    Refer to the table below for the unzip process (for folders only):
@@ -70,7 +70,7 @@ Upon successful completion of **Section 1**, we need to download and perform a f
 Note that the convention ``folder_<a-b>`` represents the series of cutout folders from folder a to folder b.
 
 5. **Verify your folder structure.**  
-   After completing steps 1–4, your **UniFoil Root** directory should look as follows:
+   After completing steps 1–4, your **UniFoil Root** directory should look like as follows:
 
    .. code-block:: text
 
@@ -85,13 +85,7 @@ Note that the convention ``folder_<a-b>`` represents the series of cutout folder
       ├── Turb_Cutout_<1-6>/
       ├── input_nlf/
       ├── input_ft/
-      ├── a/
-      ├── b/
-      ├── c/
       ├── matched_files.csv
       └── your_script.py
-
-We are now ready to use **UniFoil**.
-
 
 We are now ready to use **UniFoil**.
