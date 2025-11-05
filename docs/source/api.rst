@@ -224,7 +224,7 @@ All operations under this section are handled through the method :py:meth:`Extra
 
 .. py:method:: ed.get_aero_coeffs_lam(airfoil_number, case_number)
 
-   Returns the aerodynamic coefficients for the specified **Fully Turbulent (FT)** airfoil case.
+   Returns the aerodynamic coefficients for the specified **NLF** airfoil case.
 
    :param airfoil_number: Target airfoil number.
    :type airfoil_number: int
@@ -239,7 +239,7 @@ All operations under this section are handled through the method :py:meth:`Extra
 
 .. py:method:: ed.load_convergence_data_lam(airfoil_number, case_number, print_flag=False)
 
-   Loads and parses the convergence history file for a **Fully Turbulent (FT)** simulation case.
+   Loads and parses the convergence history file for an **NLF** simulation case.
 
    :param airfoil_number: Target airfoil number.
    :type airfoil_number: int
