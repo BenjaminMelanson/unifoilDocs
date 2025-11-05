@@ -32,31 +32,13 @@ Geometry
    :return: None
    :rtype: NoneType
 
-
-Data Extraction
----------------
-
-.. autosummary::
-   :toctree: generated
-
-.. py:class:: unifoil.extract_data.ExtractData()
-
-   Provides methods for reading and extracting airfoil coordinate data and other simulation results from the UniFoil dataset.
-
-   **Example:**
-
-   .. code-block:: python
-
-      from unifoil.extract_data import ExtractData
-      ed = ExtractData()
-
-.. py:method:: ExtractData.extract_airfoil_coords(airfoil_number, source="turb", plot_flag=False)
+.. py:method:: ed.extract_airfoil_coords(airfoil_number, source="turb", plot_flag=False)
 
    Extracts the airfoil surface coordinates *(x, y)* for the specified airfoil number and dataset source.
 
    :param airfoil_number: The ID number of the airfoil to extract.
    :type airfoil_number: int
-   :param source: The dataset source, e.g., ``"turb"`` or ``"translam"``.
+   :param source: The dataset source, e.g., ``"turb"`` or ``"translam"``. ``"turb"`` produces the **FT** geometries and ``"translam"`` produces the **NLF** geometries.
    :type source: str, optional
    :param plot_flag: If ``True``, plots the extracted airfoil geometry.
    :type plot_flag: bool, optional
