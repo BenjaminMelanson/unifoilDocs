@@ -97,3 +97,4 @@ It is imperative that these tests run successfully.
 
 
 We are now ready to use **UniFoil** !
+Click on the **Next** button below to move to the API manual to use the **UniFoil interface**.
