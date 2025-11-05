@@ -87,13 +87,13 @@ Note that the convention ``folder_<a-b>`` represents the series of cutout folder
       ├── input_nlf/
       ├── input_ft/
       ├── matched_files.csv
-      ├── test<0-8>.py
-      └── your_script.py
+      └──  test<0-8>.py
 
 
 Step 3: Dataset Check
 ------------------------
-Once **Step 2** is complete, please run the follo
+Once **Step 2** is complete, please run the python test scripts **test<0-8>.py** in the order: test0.py , test1.py ,..., and test8.py.
+It is imperative that these tests run successfully.
 
 
-We are now ready to use **UniFoil**.
+We are now ready to use **UniFoil** !
