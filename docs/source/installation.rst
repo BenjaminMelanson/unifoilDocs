@@ -36,7 +36,7 @@ Upon successful completion of **Section 1**, we need to download and perform a f
 
 2. **Download the dataset from the Harvard Dataverse.**  
    The complete dataset can be downloaded from the  
-   `Harvard Dataverse <https://dataverse.harvard.edu/>`_.
+   `Harvard Dataverse <https://doi.org/10.7910/DVN/VQGWC4>`_.
 
 3. **Open the UniFoil repository**  
    Visit the `UniFoil GitHub repository <https://github.com/YourRepoLinkHere>`_  
@@ -47,15 +47,15 @@ Upon successful completion of **Section 1**, we need to download and perform a f
    Unzip all the `.zip` and `.tar.gz` files. Once extracted, please delete the compressed files.  
    Refer to the table below for the unzip process:
 
-   +------------------------------------+----------------------------------------+
-   | **Compressed File**                | **Extracted Folder Name**              |
-   +====================================+========================================+
-   | `airfoil_data_from_simulations.tar.gz` | `airfoil_data_from_simulations/`     |
-   +------------------------------------+----------------------------------------+
-   | `unifoil_additional_data.zip`      | `unifoil_additional_data/`            |
-   +------------------------------------+----------------------------------------+
-   | *(Add more rows as needed)*        |                                        |
-   +------------------------------------+----------------------------------------+
+   +-----------------------------------------------+---------------------------------------------+
+   | **Compressed File**                           | **Extracted Folder Name**                   |
+   +===============================================+=============================================+
+   | ``airfoil_data_from_simulations.tar.gz``      | ``airfoil_data_from_simulations/``          |
+   +-----------------------------------------------+---------------------------------------------+
+   | ``unifoil_additional_data.zip``               | ``unifoil_additional_data/``                |
+   +-----------------------------------------------+---------------------------------------------+
+   | *(Add more rows here as needed)*              |                                             |
+   +-----------------------------------------------+---------------------------------------------+
 
 5. **Verify your folder structure.**  
    After completing steps 1–4, your **UniFoil Root** directory should look as follows:
