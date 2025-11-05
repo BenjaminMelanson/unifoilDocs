@@ -41,7 +41,7 @@ Upon successful completion of **Section 1**, we need to download and perform a f
 3. **Open the UniFoil repository**  
    Visit the `UniFoil GitHub repository folder <https://github.com/rohitroxkp7/UniFoil/tree/main/unifoil_interface>`_  
    and download the folders **input_nlf**, **input_ft**, and the file **matched_files.csv**. These are basically helper files and folders to help 
-   with the dataset.
+   with the dataset interface usage.
 
 4. **Extract and organize the data.**  
    Place all downloaded files and folders from the  inside the **UniFoil Root**.  
@@ -69,24 +69,29 @@ Upon successful completion of **Section 1**, we need to download and perform a f
 +-----------------------------------------------+-----------------------------------------------+
 Note that the convention ``folder_<a-b>`` represents the series of cutout folders from folder a to folder b.
 
-
 5. **Verify your folder structure.**  
-   After completing steps 1–4, your **UniFoil Root** directory should look like as follows:
+   After completing steps 1–4, your **UniFoil Root** directory should look as follows:
 
    .. code-block:: text
 
       UniFoil_root/
-      ├── airfoil_data_from_simulations/
-      │   ├── airfoil_001_G2_A/
-      │   ├── airfoil_002_G2_A/
-      │   └── ...
-      ├── unifoil_additional_data/
-      │   ├── transition_data/
-      │   ├── laminar_data/
-      │   └── ...
+      ├── airfoil_data_from_simulations_transi/
+      ├── airfoil_data_from_simulations_lam/
+      ├── airfoil_data_from_simulations_turb_set1/
+      ├── airfoil_data_from_simulations_turb_set2/
+      ├── NLF_Airfoils_Fully_Turbulent/
+      ├── Transi_Cutout_<1-4>/
+      ├── Transi_sup_data_Cutout_<1-2>/
+      ├── Turb_Cutout_<1-6>/
+      ├── input_nlf/
+      ├── input_ft/
       ├── a/
       ├── b/
       ├── c/
+      ├── matched_files.csv
       └── your_script.py
+
+We are now ready to use **UniFoil**.
+
 
 We are now ready to use **UniFoil**.
