@@ -2,7 +2,7 @@ Installation
 ============
 
 Step 1: Installation
------------------------
+--------------------
 
 The users can install the **UniFoil interface** by cloning our `repository <https://github.com/rohitroxkp7/UniFoil>`_.
 
@@ -24,7 +24,7 @@ This command will install the **UniFoil interface** along with all of its depend
    before installing **UniFoil** and using the interface inside this virtual environment.
 
 Step 2: Data Curation
-------------------------
+---------------------
 
 Upon successful completion of **Step 1**, we need to download and perform a few simple data organization steps before using **UniFoil**.
 
@@ -91,7 +91,7 @@ Note that the convention ``folder_<a-b>`` represents the series of cutout folder
 
 
 Step 3: Dataset Check
-------------------------
+---------------------
 Once **Step 2** is complete, please run the python test scripts **test<0-8>.py** in the order: test0.py , test1.py ,..., and test8.py.
 It is imperative that these tests run successfully.
 
