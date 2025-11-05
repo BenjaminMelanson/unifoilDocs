@@ -52,19 +52,19 @@ Upon successful completion of **Section 1**, we need to download and perform a f
 +===============================================+===============================================+
 | ``airfoil_data_from_simulations_transi.tar.gz`` | ``airfoil_data_from_simulations_transi/``   |
 +-----------------------------------------------+-----------------------------------------------+
-| ``airfoil_dat_from_sim_lam.tar.gz``           | ``airfoil_data_from_simulations_lam/``        |
+| ``airfoil_dat_from_sim_lam.tar.gz``             | ``airfoil_data_from_simulations_lam/``      |
 +-----------------------------------------------+-----------------------------------------------+
-| ``airfoil_dat_from_sim_turb1.tar.gz``         | ``airfoil_data_from_simulations_turb_set1/``  |
+| ``airfoil_dat_from_sim_turb1.tar.gz``           | ``airfoil_data_from_simulations_turb_set1/``|
 +-----------------------------------------------+-----------------------------------------------+
-| ``airfoil_dat_from_sim_turb2.tar.gz``         | ``airfoil_data_from_simulations_turb_set2/``  |
+| ``airfoil_dat_from_sim_turb2.tar.gz``           | ``airfoil_data_from_simulations_turb_set2/``|
 +-----------------------------------------------+-----------------------------------------------+
-| ``NLF_Airfoils_Fully_Turbulent.zip``          | ``NLF_Airfoils_Fully_Turbulent/``             |
+| ``NLF_Airfoils_Fully_Turbulent.zip``            | ``NLF_Airfoils_Fully_Turbulent/``           |
 +-----------------------------------------------+-----------------------------------------------+
-| ``Transi_Cutout_<1-4>.zip``                   | ``Transi_Cutout_<1-4>/``                      |
+| ``Transi_Cutout_<1-4>.zip``                     | ``Transi_Cutout_<1-4>/``                    |
 +-----------------------------------------------+-----------------------------------------------+
-| ``Transi_sup_data_Cutout_<1-2>.zip``          | ``Transi_sup_data_Cutout_<1-2>/``             |
+| ``Transi_sup_data_Cutout_<1-2>.zip``            | ``Transi_sup_data_Cutout_<1-2>/``           |
 +-----------------------------------------------+-----------------------------------------------+
-| ``Turb_Cutout_<1-6>.zip``                     | ``Turb_Cutout_<1-6>/``                        |
+| ``Turb_Cutout_<1-6>.zip``                       | ``Turb_Cutout_<1-6>/``                      |
 +-----------------------------------------------+-----------------------------------------------+
 
 
