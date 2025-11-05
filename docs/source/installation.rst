@@ -39,8 +39,9 @@ Upon successful completion of **Section 1**, we need to download and perform a f
    `Harvard Dataverse <https://doi.org/10.7910/DVN/VQGWC4>`_.
 
 3. **Open the UniFoil repository**  
-   Visit the `UniFoil GitHub repository folder <https://github.com/YourRepoLinkHere>`_  
-   and download the folders **a**, **b**, and **c**.
+   Visit the `UniFoil GitHub repository folder <https://github.com/rohitroxkp7/UniFoil/tree/main/unifoil_interface>`_  
+   and download the folders **input_nlf**, **input_ft**, and the file **matched_files.csv**. These are basically helper files and folders to help 
+   with the dataset.
 
 4. **Extract and organize the data.**  
    Place all downloaded files and folders from the  inside the **UniFoil Root**.  
@@ -66,11 +67,11 @@ Upon successful completion of **Section 1**, we need to download and perform a f
 +-----------------------------------------------+-----------------------------------------------+
 | ``Turb_Cutout_<1-6>.zip``                     | ``Turb_Cutout_<1-6>/``                        |
 +-----------------------------------------------+-----------------------------------------------+
-
+Note that the convention ``folder_<a-b>`` represents the series of cutout folders from folder a to folder b.
 
 
 5. **Verify your folder structure.**  
-   After completing steps 1–4, your **UniFoil Root** directory should look as follows:
+   After completing steps 1–4, your **UniFoil Root** directory should look like as follows:
 
    .. code-block:: text
 
