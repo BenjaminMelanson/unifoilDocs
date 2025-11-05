@@ -1,43 +1,19 @@
+API
+===
+
+Welcome to the **UniFoil API Documentation**!  
+Below is a list of the core functions and classes needed to utilize the UniFoil dataset and geometry generation tools.
+
 Geometry
-========
-
-The **Geometry** module of UniFoil provides tools to generate and access airfoil geometries from the curated UniFoil dataset.  
-This includes creating both *Fully Turbulent (FT)* and *Natural Laminar Flow (NLF)* geometry libraries, as well as extracting airfoil coordinates from different datasets.
-
-The following sequence demonstrates the typical workflow for geometry generation and extraction.
-
-.. code-block:: python
-
-   import unifoil
-
-   # Step 1: Generate Fully Turbulent airfoils
-   unifoil.gen_ft()
-
-   # Step 2: Generate Natural Laminar Flow airfoils
-   unifoil.gen_nlf()
-
-   # Step 3: Initialize the data extraction interface
-   from unifoil.extract_data import ExtractData
-   ed = ExtractData()
-
-   # Step 4: Extract airfoil coordinates from the turbulent dataset
-   x, y = ed.extract_airfoil_coords(airfoil_number=3, source="turb", plot_flag=True)
-
-   # Step 5: Extract airfoil coordinates from the transitional-laminar dataset
-   x, y = ed.extract_airfoil_coords(airfoil_number=3, source="translam", plot_flag=True)
-
-
-Functions and Classes
----------------------
+--------
 
 .. autosummary::
    :toctree: generated
 
-
 .. py:function:: unifoil.gen_ft()
 
-   Generates and stores the **Fully Turbulent (FT)** airfoil geometries in the local UniFoil directory.  
-   These geometries are used in simulations assuming fully turbulent flow.
+   Generates and saves the **Fully Turbulent (FT)** airfoil geometries.  
+   These geometries are used to initialize simulations that assume fully turbulent flow conditions.
 
    :return: None
    :rtype: NoneType
@@ -49,11 +25,10 @@ Functions and Classes
       import unifoil
       unifoil.gen_ft()
 
-
 .. py:function:: unifoil.gen_nlf()
 
-   Generates and stores the **Natural Laminar Flow (NLF)** airfoil geometries in the local UniFoil directory.  
-   These geometries are used for cases involving laminar–turbulent transition.
+   Generates and saves the **Natural Laminar Flow (NLF)** airfoil geometries.  
+   These geometries are used to initialize simulations with laminar-turbulent transition regions.
 
    :return: None
    :rtype: NoneType
@@ -66,9 +41,15 @@ Functions and Classes
       unifoil.gen_nlf()
 
 
+Data Extraction
+---------------
+
+.. autosummary::
+   :toctree: generated
+
 .. py:class:: unifoil.extract_data.ExtractData()
 
-   Initializes the **ExtractData** interface, providing methods to read, process, and visualize airfoil data from the UniFoil dataset.
+   Provides methods for reading and extracting airfoil coordinate data and other simulation results from the UniFoil dataset.
 
    **Example:**
 
@@ -77,10 +58,9 @@ Functions and Classes
       from unifoil.extract_data import ExtractData
       ed = ExtractData()
 
-
 .. py:method:: ExtractData.extract_airfoil_coords(airfoil_number, source="turb", plot_flag=False)
 
-   Extracts the surface coordinates *(x, y)* of a specific airfoil from the selected dataset.
+   Extracts the airfoil surface coordinates *(x, y)* for the specified airfoil number and dataset source.
 
    :param airfoil_number: The ID number of the airfoil to extract.
    :type airfoil_number: int
@@ -91,16 +71,15 @@ Functions and Classes
    :return: Tuple of arrays ``(x, y)`` representing the airfoil coordinates.
    :rtype: tuple of np.ndarray
 
-   **Examples:**
+   **Example:**
 
-   - Extract from the **turbulent dataset**:
+   .. code-block:: python
 
-     .. code-block:: python
+      from unifoil.extract_data import ExtractData
+      ed = ExtractData()
 
-        x, y = ed.extract_airfoil_coords(airfoil_number=3, source="turb", plot_flag=True)
+      # Extract from the turbulent dataset
+      x, y = ed.extract_airfoil_coords(airfoil_number=3, source="turb", plot_flag=True)
 
-   - Extract from the **transitional-laminar dataset**:
-
-     .. code-block:: python
-
-        x, y = ed.extract_airfoil_coords(airfoil_number=3, source="translam", plot_flag=True)
+      # Extract from the transitional-laminar dataset
+      x, y = ed.extract_airfoil_coords(airfoil_number=3, source="translam", plot_flag=True)
