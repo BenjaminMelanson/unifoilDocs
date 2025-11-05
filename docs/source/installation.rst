@@ -41,7 +41,7 @@ Upon successful completion of **Step 1**, we need to download and perform a few 
 3. **Open the UniFoil repository:**  
    Visit the `UniFoil GitHub repository folder <https://github.com/rohitroxkp7/UniFoil/tree/main/unifoil_interface>`_  
    and download the folders **input_nlf**, **input_ft**, and the file **matched_files.csv**.
-   Also download the `test cases <https://github.com/rohitroxkp7/UniFoil/tree/main/unifoil_interface/examples>`_ to be run in the next step. 
+   Also download the `test scripts <https://github.com/rohitroxkp7/UniFoil/tree/main/unifoil_interface/examples>`_ **test<0-8>.py** to be run in the next step. 
    These are basically helper files and folders to help 
    with the dataset interface usage. Once downloaded, place them as is inside the **UniFoil Root**.
 
@@ -88,6 +88,7 @@ Note that the convention ``folder_<a-b>`` represents the series of cutout folder
       ├── input_nlf/
       ├── input_ft/
       ├── matched_files.csv
+      ├── test<0-8>.py
       └── your_script.py
 
 
