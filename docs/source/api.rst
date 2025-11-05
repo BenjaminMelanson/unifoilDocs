@@ -381,7 +381,8 @@ All operations under this section are handled through the method :py:meth:`Extra
    :return: A list containing ``[nfactor_data, transi_data]`` objects from the corresponding data files.
    :rtype: list
 
-   **Description:**  
+   **Description:**
+
    - Searches for supplementary transition data files inside ``Transi_sup_data_Cutout_<1-4>`` directories under the **UniFoil Root**.  
    - Automatically maps the airfoil geometry using ``matched_files.csv`` to locate the correct NLF airfoil file.  
    - If the matching ``nfactor_ts.dat`` or ``transiLoc.dat`` files are found, they are parsed using ``sup_transi``.  
