@@ -3,6 +3,13 @@ API
 
 Welcome to the **UniFoil API Documentation**!  
 Below is a list of the core functions and classes needed to utilize the UniFoil dataset and geometry generation tools.
+Place your Python script for the interface inside **Unifoil root** with any filename of choice.
+Next, at the script header, insert the following:
+
+   .. code-block:: python
+
+      from unifoil.extract_data import ExtractData
+      ed = ExtractData()
 
 Geometry
 --------
