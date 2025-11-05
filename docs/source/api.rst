@@ -12,7 +12,7 @@ Next, at the script header, insert the following:
       from unifoil.extract_data import ExtractData
       ed = ExtractData()
 
-Before we begin, it is essential to present some nomenclature used in the API commands below. The **Airfoil_Case_Data_Trans_Lam.csv** and **Airfoil_Case_Data_turb.csv** have the airfoil number and case data. Users are required to open these files and view the flight conditions for each case for each airfoil. When we say **Airfoil number** and **Case number** in the API below, we refer to this pair of numbers (IDs). Users can alternately input the **airfoil number** and flight condition triad **Mach**, **Angle of Attack** and **Reyndold's number**. Users are encouraged to use these scripts in any way they desire, to load and process different combinations of
+Before we begin, it is essential to present some nomenclature used in the API commands below. The **Airfoil_Case_Data_Trans_Lam.csv** and **Airfoil_Case_Data_turb.csv** have the airfoil number and case data. Users are required to open these files and view the flight conditions for each case for each airfoil. When we say **Airfoil number** and **Case number** in the API below, we refer to this pair of numbers (IDs). Users can alternately input the **Airfoil number** and flight condition triad **Mach**, **Angle of Attack** and **Reyndold's number**. Users are encouraged to use these scripts in any way they desire, to load and process different combinations of
 
 Geometry
 --------
