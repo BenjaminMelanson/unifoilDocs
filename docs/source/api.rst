@@ -59,7 +59,7 @@ All operations under this section are handled through the method :py:meth:`Extra
 
 .. py:method:: ed.surf_turb(airfoil_number, case_number=None, field_name=None, action=None, block_index=None, xlim=None, ylim=None, levels=200, cmap="viridis", overlay_airfoil=True, vel_component=None, Mach=None, AoA=None, Re=None, save_path=None)
 
-   Accesses and visualizes turbulent surface data for a given airfoil and case from the UniFoil dataset.
+   Accesses and visualizes turbulent surface data for a given airfoil and case from the UniFoil FT turbulent simulations dataset.
 
    :param airfoil_number: Target airfoil number.
    :type airfoil_number: int
@@ -163,7 +163,7 @@ All operations under this section are handled through the method :py:meth:`Extra
 
 .. py:method:: ed.surf_lam(airfoil_number, case_number=None, field_name=None, action=None, block_index=None, xlim=None, ylim=None, levels=200, cmap="viridis", overlay_airfoil=True, vel_component=None, Mach=None, AoA=None, Re=None, save_path=None)
 
-   Accesses and visualizes turbulent surface data for a given airfoil and case from the UniFoil dataset.
+   Accesses and visualizes turbulent surface data for a given airfoil and case from the UniFoil NLF turbulent simulations dataset.
 
    :param airfoil_number: Target airfoil number.
    :type airfoil_number: int
