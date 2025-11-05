@@ -1,7 +1,10 @@
 API
 ===
 Welcome to the API Documentation!
-Below is all of the critical functions needed to utilize the UniFoil Dataset.
+Below is a list of all of the functions needed to utilize the UniFoil Dataset.
+
+Geometry
+--------
 
 .. autosummary::
    :toctree: generated
