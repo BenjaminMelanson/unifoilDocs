@@ -8,6 +8,7 @@ Next, at the script header, insert the following:
 
    .. code-block:: python
 
+      import unifoil
       from unifoil.extract_data import ExtractData
       ed = ExtractData()
 
@@ -19,33 +20,17 @@ Geometry
 
 .. py:function:: unifoil.gen_ft()
 
-   Generates and saves the **Fully Turbulent (FT)** airfoil geometries.  
-   These geometries are used to initialize simulations that assume fully turbulent flow conditions.
+   Generates and saves the **Fully Turbulent (FT)** airfoil geometries inside a locally created folder named **airfoil_ft_geom**. 
 
    :return: None
    :rtype: NoneType
-
-   **Example:**
-
-   .. code-block:: python
-
-      import unifoil
-      unifoil.gen_ft()
 
 .. py:function:: unifoil.gen_nlf()
 
-   Generates and saves the **Natural Laminar Flow (NLF)** airfoil geometries.  
-   These geometries are used to initialize simulations with laminar-turbulent transition regions.
+   Generates and saves the **Natural Laminar Flow (NLF)** airfoil geometries inside a locally created folder named **airfoil_nlf_geom**.  
 
    :return: None
    :rtype: NoneType
-
-   **Example:**
-
-   .. code-block:: python
-
-      import unifoil
-      unifoil.gen_nlf()
 
 
 Data Extraction
