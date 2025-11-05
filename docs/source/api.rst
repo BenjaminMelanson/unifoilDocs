@@ -45,6 +45,8 @@ Geometry
    :return: Tuple of arrays ``(x, y)`` representing the airfoil coordinates.
    :rtype: tuple of np.ndarray
 
+______________________________________
+
 FT Geometries — Turbulent Simulation Data
 -----------------------------------------
 
