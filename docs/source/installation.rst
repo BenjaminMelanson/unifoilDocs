@@ -25,10 +25,12 @@ Step 2: Data Curation
 ---------------------
 
 Upon successful completion of **Step 1**, download **UniFoil** using the command below. If flag is set to the string **"sample"**, it downloads a small working subset of the  dataset to help users quickly get around the interface and test different components and functionality. By setting the flag to string **"full"** downloads the entire dataset.
-.. code-block:: console
+
+.. code-block:: python
 
    from unifoil.getdata import GetData
    GetData().getdata(flag="sample")
+
 
 5. **Verify your folder structure.**  
    After completing steps 1–4, your **UniFoil Root** directory should look like as follows:
