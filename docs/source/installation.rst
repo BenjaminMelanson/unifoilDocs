@@ -24,49 +24,13 @@ This command will install the **UniFoil interface** along with all of its depend
 Step 2: Data Curation
 ---------------------
 
-Upon successful completion of **Step 1**, we need to download and perform a few simple data organization steps before using **UniFoil**.
+Upon successful completion of **Step 1**, download **UniFoil** using the command below. If flag is set to the string **"sample"**, it downloads a small working subset of the  dataset to help users quickly get around the interface and test different components and functionality. By setting the flag to string **"full"** downloads the entire dataset.
+.. code-block:: console
 
-1. **Create a local folder for UniFoil usage:**  
-   This folder will serve as the workspace for your datasets and scripts.  
-   All UniFoil operations must be executed from within a Python script located inside this folder.  
-   We will refer to this folder as the **UniFoil Root** throughout this documentation.
+   from unifoil.getdata import GetData
+   GetData().getdata(flag="sample")
 
-2. **Download the dataset from the Harvard Dataverse:**  
-   The complete dataset can be downloaded from the  
-   `Harvard Dataverse <https://doi.org/10.7910/DVN/VQGWC4>`_.
 
-3. **Open the UniFoil repository:**  
-   Visit the `UniFoil GitHub repository folder <https://github.com/rohitroxkp7/UniFoil/tree/main/unifoil_interface>`_  
-   and download the folders **input_nlf**, **input_ft**, and the file **matched_files.csv**.
-   Also download the `test scripts <https://github.com/rohitroxkp7/UniFoil/tree/main/unifoil_interface/examples>`_ **test<0-8>.py** to be run in the next step. 
-   These are basically helper files and folders to help 
-   with the dataset interface usage. Once downloaded, place them as is inside the **UniFoil Root**.
-
-4. **Extract and organize the data:**  
-   Place all downloaded files and folders from the  inside the **UniFoil Root**.  
-   Unzip all the `.zip` and `.tar.gz` files. Once extracted, please delete the compressed files.  
-   Refer to the table below for the unzip process (for folders only):
-
-+-----------------------------------------------+-----------------------------------------------+
-| **Compressed File**                           | **Extracted / Renamed Folder Name**           |
-+===============================================+===============================================+
-|``airfoil_data_from_simulations_transi.tar.gz``| ``airfoil_data_from_simulations_transi/``     |
-+-----------------------------------------------+-----------------------------------------------+
-| ``airfoil_dat_from_sim_lam.tar.gz``           | ``airfoil_data_from_simulations_lam/``        |
-+-----------------------------------------------+-----------------------------------------------+
-| ``airfoil_dat_from_sim_turb1.tar.gz``         | ``airfoil_data_from_simulations_turb_set1/``  |
-+-----------------------------------------------+-----------------------------------------------+
-| ``airfoil_dat_from_sim_turb2.tar.gz``         | ``airfoil_data_from_simulations_turb_set2/``  |
-+-----------------------------------------------+-----------------------------------------------+
-| ``NLF_Airfoils_Fully_Turbulent.zip``          | ``NLF_Airfoils_Fully_Turbulent/``             |
-+-----------------------------------------------+-----------------------------------------------+
-| ``Transi_Cutout_<1-4>.zip``                   | ``Transi_Cutout_<1-4>/``                      |
-+-----------------------------------------------+-----------------------------------------------+
-| ``Transi_sup_data_Cutout_<1-2>.zip``          | ``Transi_sup_data_Cutout_<1-2>/``             |
-+-----------------------------------------------+-----------------------------------------------+
-| ``Turb_Cutout_<1-6>.zip``                     | ``Turb_Cutout_<1-6>/``                        |
-+-----------------------------------------------+-----------------------------------------------+
-Note that the convention ``folder_<a-b>`` represents the series of cutout folders from folder a to folder b.
 
 5. **Verify your folder structure.**  
    After completing steps 1–4, your **UniFoil Root** directory should look like as follows:
@@ -87,6 +51,7 @@ Note that the convention ``folder_<a-b>`` represents the series of cutout folder
       ├── matched_files.csv
       └──  test<0-8>.py
 
+Note that the convention ``folder_<a-b>`` represents the series of cutout folders from folder a to folder b.
 
 Step 3: Dataset Check
 ---------------------
