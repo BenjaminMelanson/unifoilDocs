@@ -31,25 +31,24 @@ Upon successful completion of **Step 1**, download **UniFoil** using the command
    from unifoil.getdata import GetData
    GetData().getdata(flag="sample")
 
+**Verify your folder structure.**  
+After completing steps 1–4, your **UniFoil Root** directory should look like as follows:
 
-5. **Verify your folder structure.**  
-   After completing steps 1–4, your **UniFoil Root** directory should look like as follows:
+.. code-block:: text
 
-   .. code-block:: text
-
-      UniFoil_root/
-      ├── airfoil_data_from_simulations_transi/
-      ├── airfoil_data_from_simulations_lam/
-      ├── airfoil_data_from_simulations_turb_set1/
-      ├── airfoil_data_from_simulations_turb_set2/
-      ├── NLF_Airfoils_Fully_Turbulent/
-      ├── Transi_Cutout_<1-4>/
-      ├── Transi_sup_data_Cutout_<1-2>/
-      ├── Turb_Cutout_<1-6>/
-      ├── input_nlf/
-      ├── input_ft/
-      ├── matched_files.csv
-      └──  test<0-8>.py
+   UniFoil_root/
+   ├── airfoil_data_from_simulations_transi/
+   ├── airfoil_data_from_simulations_lam/
+   ├── airfoil_data_from_simulations_turb_set1/
+   ├── airfoil_data_from_simulations_turb_set2/
+   ├── NLF_Airfoils_Fully_Turbulent/
+   ├── Transi_Cutout_<1-4>/
+   ├── Transi_sup_data_Cutout_<1-2>/
+   ├── Turb_Cutout_<1-6>/
+   ├── input_nlf/
+   ├── input_ft/
+   ├── matched_files.csv
+   └── test<0-8>.py
 
 Note that the convention ``folder_<a-b>`` represents the series of cutout folders from folder a to folder b.
 
