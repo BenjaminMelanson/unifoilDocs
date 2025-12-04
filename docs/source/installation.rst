@@ -30,8 +30,6 @@ Upon successful completion of **Step 1**, download **UniFoil** using the command
    from unifoil.getdata import GetData
    GetData().getdata(flag="sample")
 
-
-
 5. **Verify your folder structure.**  
    After completing steps 1–4, your **UniFoil Root** directory should look like as follows:
 
