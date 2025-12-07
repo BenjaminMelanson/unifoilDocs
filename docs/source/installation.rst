@@ -36,7 +36,7 @@ We apologize for this inconvenience and are working on getting this option to wo
 Ensure that the folder structure is as described below. Please run the command above with **sample** option to download the mandatory tools.
 
 **Verify your folder structure.**  
-After completing steps 1–4, your **UniFoil Root** directory should look like as follows:
+After completing steps 1–2, your **UniFoil Root** directory should look like as follows:
 
 .. code-block:: text
 
