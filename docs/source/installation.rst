@@ -31,6 +31,10 @@ Upon successful completion of **Step 1**, download **UniFoil** using the command
    from unifoil.getdata import GetData
    GetData().getdata(flag="sample")
 
+NOTICE: We are currently facing challenges with the **full** string option. We are working on setting this up. To access the full dataset, please download it manually for the timebeing.
+We apologize for this inconvenience and are working on getting this option to work to enable seamless dataset download and access.
+Ensure that the folder structure is as described below. Please run the command above with **sample** option to download the mandatory tools.
+
 **Verify your folder structure.**  
 After completing steps 1–4, your **UniFoil Root** directory should look like as follows:
 
