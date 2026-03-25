@@ -1,7 +1,7 @@
 Using ADflow Docker
 ===================
 
-For installing docker for ADflow, please visit: https://mdolab-mach-aero.readthedocs-hosted.com/en/latest/installInstructions/dockerInstructions.html
+For installing docker for ADflow, please visit this site: `this site <https://mdolab-mach-aero.readthedocs-hosted.com/en/latest/installInstructions/dockerInstructions.html>`_.
 
 Initialize a container
 ----------------------
@@ -15,7 +15,7 @@ Replace ``<NAME>`` with the name you would like to give the container, set ``<HO
 
 Download helper scripts
 -----------------------
-Download the ``dockerUsageExample`` folder from the UniFoil GitHub repository into your ``<name>`` directory using this link: https://github.com/rohitroxkp7/UniFoil/tree/main/dockerUsageExample. This folder contains:
+Download the ``dockerUsageExample`` folder from the UniFoil GitHub repository into your ``<name>`` directory using `this link <https://github.com/rohitroxkp7/UniFoil/tree/main/dockerUsageExample>`_. This folder contains:
 
 - ``run_adflow.py``
 - ``aero_run.py``
