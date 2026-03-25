@@ -33,7 +33,7 @@ From your host machine, start the container and run the helper script.
 
    sudo docker start adock
 
-Add your user to the docker group (one time) so you can run Docker without sudo, then log out and back in:
+Add your user to the docker group (one time) so you can run Docker without sudo, then log out and back in. If that does not work, then restart the computer post command execution:
 
 .. code-block:: bash
 
