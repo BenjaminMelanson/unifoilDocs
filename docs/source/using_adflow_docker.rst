@@ -15,7 +15,11 @@ Replace ``<NAME>`` with the name you would like to give the container, set ``<HO
 
 Download helper scripts
 -----------------------
-Download the ``dockerUsage`` folder from the UniFoil GitHub repository into your ``<name>`` directory. This folder contains:
+Download the ``dockerUsageExample`` folder from the UniFoil GitHub repository into your ``<name>`` directory using the link below. This folder contains:
+
+.. code-block:: text
+
+   https://github.com/rohitroxkp7/UniFoil/tree/main/dockerUsageExample
 
 - ``run_adflow.py``
 - ``aero_run.py``
