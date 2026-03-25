@@ -13,5 +13,6 @@ Welcome to UniFoil. Our project provides a dataset containing about half million
    :titlesonly:
 
    installation
+   using_adflow_docker
    api
    examples
